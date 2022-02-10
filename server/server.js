@@ -6,7 +6,7 @@ require("dotenv").config({ path: `${__dirname}/config/config.env` });
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(express.static(path.join(__dirname, "client/build")));
+app.use(express.static(path.join(process.cwd(), "client/build")));
 
 app.use(express.urlencoded({ extended: false }), express.json());
 app.use("/orders", require("./routes/index"));
