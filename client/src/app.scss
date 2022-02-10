@@ -1,0 +1,169 @@
+$dark_pink: #f77692;
+$dark_pink_hover: #f82c58;
+$light_pink: #f3c6d1;
+
+.hnh-button {
+  background: $dark_pink;
+  color: white;
+  border: none;
+
+  &:hover {
+    background: $dark_pink_hover;
+  }
+
+  &:focus {
+    background: $dark_pink_hover;
+  }
+}
+
+.btn-secondary.focus,
+.btn-secondary:focus {
+  color: #fff;
+  background-color: $dark_pink_hover;
+  border-color: $dark_pink_hover;
+  box-shadow: 0 0 0 0.15rem $dark_pink;
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+  color: $light_pink;
+  background-color: $dark_pink_hover;
+  border-color: $dark_pink_hover;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.15rem #f77692;
+}
+
+.percentages {
+  margin-top: 5px;
+  min-height: 100px;
+  background-color: white;
+  border: $dark_pink_hover solid 1px;
+  border-radius: 20px;
+}
+
+.orders-table {
+  margin-top: 3px;
+  border: 1px solid $dark_pink;
+  border-radius: 14px;
+}
+
+.text-main {
+  color: $dark_pink_hover;
+  margin: 0;
+}
+
+.hnh-card {
+  border: 1px solid $dark_pink;
+
+  .hnh-card-table {
+    overflow-x: scroll;
+    height: 200px;
+  }
+  overflow-x: scroll;
+  height: 215px;
+
+  .hnh-card-header {
+    background: $dark_pink;
+    color: white;
+  }
+}
+
+.order-scroller {
+  position: relative;
+  z-index: 2;
+  overflow-y: hidden;
+
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+
+    margin-bottom: -10px;
+  }
+
+  .hnh-listing {
+    width: 250px;
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    background: transparent;
+  }
+}
+
+.order-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.hnh-dark-text {
+  color: $dark_pink_hover;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper {
+  width: 40px;
+  height: 25px;
+  border-radius: 8px;
+  background-color: $dark_pink;
+  overflow: hidden;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  outline: none;
+  transition-property: transform, opacity;
+  text-transform: linear;
+  transition-duration: 0.25s;
+}
+
+.button {
+  background: none;
+  border: none;
+  padding: 0.8rem;
+  color: $dark_pink;
+  font-size: 1.6rem;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: $dark_pink_hover;
+  }
+}
+
+.hnh-border {
+  border-radius: 14px;
+  border: 1px solid $light_pink;
+  box-shadow: 0px 2px 4px 0px $light_pink;
+}
+
+.order-add-btn {
+  background-color: #ebeef0;
+  color: $dark_pink;
+  border: none;
+  font-weight: 700;
+}
+
+.hnh-input-border {
+  border: 1px solid $dark_pink;
+}
