@@ -22,7 +22,8 @@
   "main": "src/index.js",
   "proxy": "https://localhost:5000",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
