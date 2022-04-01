@@ -41,7 +41,7 @@ const Inventory = () => {
             key={item.id}
             name={item.name}
             quanity={item.quanity}
-            thc={item.thc}
+            size={item.size}
             price={item.price}
           />
         ))}

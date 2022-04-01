@@ -2,7 +2,7 @@ import React from "react";
 import { Bar } from "react-chartjs-2";
 
 const data = {
-  labels: ["Prerolls", "Cereal Bars", "Nugs", "Brownies", "Cookies"],
+  labels: ["Cereal Bars", "Cookies", "Cakes", "Brownies", "Bagels"],
   datasets: [
     {
       label: "Amount sold",

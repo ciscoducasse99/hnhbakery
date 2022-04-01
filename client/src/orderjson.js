@@ -8,7 +8,7 @@ module.exports = {
       contact: "978-328-3984",
       items: [
         {
-          name: "Nugs",
+          name: "Bagels",
           price: 15,
           quanity: 3,
         },
@@ -32,7 +32,7 @@ module.exports = {
       contact: "978-328-3984",
       items: [
         {
-          name: "Nugs",
+          name: "Cookies",
           price: 15,
           quanity: 3,
         },
@@ -46,7 +46,7 @@ module.exports = {
       contact: "978-328-3984",
       items: [
         {
-          name: "Nugs",
+          name: "Bagels",
           quanity: 3,
           price: 15,
         },
@@ -70,11 +70,6 @@ module.exports = {
       contact: "978-328-3984",
       items: [
         {
-          name: "Nugs",
-          quanity: 3,
-          price: 15,
-        },
-        {
           name: "Brownies",
           quanity: 1,
           price: 30,
@@ -94,7 +89,7 @@ module.exports = {
       contact: "978-328-3984",
       items: [
         {
-          name: "Nugs",
+          name: "Cereal Bars",
           quanity: 3,
           price: 15,
         },
@@ -107,11 +102,6 @@ module.exports = {
       location: "184 Pine Street, Lowell MA",
       contact: "978-328-3984",
       items: [
-        {
-          name: "Nugs",
-          quanity: 3,
-          price: 15,
-        },
         {
           name: "Brownies",
           quanity: 1,

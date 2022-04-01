@@ -4,13 +4,16 @@ import "../app.scss";
 
 const PurchaseList = () => {
   return (
-    <>
+    <div className="pb-5">
       <p className="text-muted text-center mb-0 pb-0">
         {" "}
         Make 'Purchase List' section feel better
       </p>
       <Card className="shadow-sm mt-3 hnh-card mb-5">
-        <CardHeader className="hnh-card-header">Purchase List</CardHeader>
+        <CardHeader className="hnh-card-header d-flex justify-content-between items-center">
+          <span>Purchase List</span>
+          <i className="fa fa-plus" />
+        </CardHeader>
         <Table className="m-0">
           <thead>
             <tr>
@@ -21,7 +24,7 @@ const PurchaseList = () => {
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Weed</th>
+              <th scope="row">Flour</th>
               <td>2</td>
               <td>$25</td>
             </tr>
@@ -38,7 +41,7 @@ const PurchaseList = () => {
           </tbody>
         </Table>
       </Card>
-    </>
+    </div>
   );
 };
 

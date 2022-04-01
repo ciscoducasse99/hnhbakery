@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ListGroupItem } from "reactstrap";
 
-const InventoryCounter = ({ name, quanity, price, thc }) => {
+const InventoryCounter = ({ name, quanity, price, size }) => {
   const [amount, setAmount] = useState(quanity);
 
   const changeValue = (currentValue, newValue) => {
@@ -21,7 +21,7 @@ const InventoryCounter = ({ name, quanity, price, thc }) => {
           <span className="text-muted">${price}</span>
         </h6>
         <div className="m-0 p-0">
-          <small>THC content: {thc}mg</small>
+          <small>Serving Size: {size}mg</small>
         </div>
       </div>
       <div className="counter">
