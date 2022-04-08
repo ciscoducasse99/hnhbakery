@@ -14,7 +14,7 @@ const AddOrder = () => {
               type="text"
               name="ig_name"
               id="ig_name"
-              placeholder="h3nnynhoney"
+              placeholder="dvcasse"
               className="rounded-pill hnh-input-border mt-1"
             />
           </FormGroup>
@@ -77,7 +77,6 @@ const AddOrder = () => {
         <p className="p-3"> Add products to see lists...</p>
       </div>
 
-      <small className="text-muted text-center"> ( add form validation )</small>
       <button
         className="mt-5 btn btn-lg border-0 text-white w-100 mx-auto rounded-pill"
         style={{ backgroundColor: "#f77692" }}
