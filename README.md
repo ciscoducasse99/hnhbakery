@@ -22,7 +22,3 @@ I'm using React as a frontend with Express.js serving routes and data from MySQL
 <img src="client/src/images/m-hnh3.jpg" alt="hnh-img" width="240px" height="500px" style="margin-bottom:20px; border-radius:10px;"/>
 
 #### Todos
-
-- Possibly make a large-screen design. Will do if needed
-- Create api that can keep track of longterm data
-- Implement some sort of route-scheduler to showcase when and how to make deliveries.
